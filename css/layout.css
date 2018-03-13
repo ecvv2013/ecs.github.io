@@ -1,0 +1,267 @@
+.warningMsgBtn {
+    margin: 5px 18px 11px 11px;
+    float: left;
+}
+.warningMsgBtn_TC {
+    margin: 5px 8px 11px 11px;
+    float: left;
+}
+.warningMsgBtn_MP {
+    margin: 5px 8px 11px 11px;
+    float: left;
+}.warningMsgBtn_NEWS {
+    margin: 5px 18px 11px 11px;
+    float: right;
+}
+.warningMsgBtn-complex-air , .mediaVideoBtn-scDaily {
+    margin: 20px 0 11px 11px;
+    float: left;
+}
+.warningMsgBtn-complex-civ, .mediaVideoBtn-cdDaily {
+    margin: 20px 18px 11px 0;
+    float: right;
+}
+.videoConferencingBtn {
+    float: left;
+    margin: 15px 34px 5px 2px;
+}
+.videoConferencingBtn-complex {
+    position: relative;
+    top: 15px;
+    left: 1px;
+}
+#provincialMilitaryCommand {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+#provincialPartyCommittee {
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+#provincialGovernment {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+#nationalAirDefense {
+    position: absolute;
+    top: 75px;
+    right: 30px;
+}
+.locationQueryBtn {
+    position: absolute;
+    right: 0px;
+    top: 43px;
+}
+.bufferAnalysisBtn {
+    position: absolute;
+    right: 0px;
+    top: 43px;
+}
+#bigDipperBtnSend {
+    position: absolute;
+    right: 95px;
+    top: 195px;
+}
+#bigDipperBtnClear {
+    position: absolute;
+    right: 0px;
+    top: 195px;
+}
+.bigDipperMsgCombo {
+    position: absolute;
+    right: 0px; 
+    top: 140px;
+},
+#bigDipperMsgTextArea {
+    position: absolute;
+    top: 0x;
+    right: 0px;
+}
+.bigDipperMsg {
+    text-align: center;
+}
+.locationDiv {
+    text-align: center;
+}
+.locationTable {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+.tableheader {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#communicationReceiptPanel-innerCt {
+    text-align: center;
+}
+#bigDipperMsgPanel-innerCt {
+    text-align: center
+}
+.markerclicked {
+    border: 4px solid #2a5caa;
+}
+#icon_array_1 img {
+    cursor: pointer;
+    margin: 12px 18px 10px 15px;
+}
+#icon_array_2 img {
+    cursor: pointer;
+    margin: 8px 23px 4px 23px;
+}
+#pathDemonstration, #undeployment, #undeploymentAll, #stratPathDemonstration {
+    margin: 10px 0px 0px 8px;
+    background-color: #5fa2dd;
+}
+/*修改框架默认颜色*/
+#mapPanel_header, #mapOperationPanle_header, 
+#posturePlotting_header, #iconDeployment_header,
+#bigDipperMsgPanel_header, #queryResultsPanel_header,
+#muitiplePanel_header, #communicationReceiptPanel_header,
+#muitiplePanel-placeholder, #mapOperationPanle-placeholder{
+    background-color: #2a5caa;
+}
+/*下拉框颜色*/
+.x-boundlist-selected{
+    background-color: #2a5caa;
+}
+/*下拉框悬停颜色*/
+#locationCombo-picker-listEl li,
+#bigDipperMsgCombo-picker-listEl li,
+#posturePlottingCombo-picker-listEl li,
+#bufferAnalysisCombo-picker-listEl li,
+#callCombo-picker-listEl li{
+    margin: 0px 0px 1px 0px;
+    border: 1px solid transparent;
+}
+#locationCombo-picker-listEl li:hover,
+#bigDipperMsgCombo-picker-listEl li:hover,
+#posturePlottingCombo-picker-listEl li:hover,
+#bufferAnalysisCombo-picker-listEl li:hover,
+#callCombo-picker-listEl:hover {
+    background-color:  #2a5caa;
+}
+.x-panel-header-default-framed .x-tool-tool-el {
+    background-color: #2a5caa;
+}
+/*折叠加减号*/
+.x-accordion-hd .x-tool-img {
+    color: #2a5caa;
+}
+#mapPanel, #mapOperationPanle,
+#muitiplePanel-placeholder, #mapOperationPanle-placeholder,
+#posturePlotting, #iconDeployment,
+#bigDipperMsgPanel, #queryResultsPanel,
+#muitiplePanel, #communicationReceiptPanel, #tool-1016{
+    border-color: #2a5caa;
+}
+.bufferAnalysisBtn, .locationQueryBtn, .callBtn, .videoConferencingBtn-complex,
+.videoConferencingBtn, .warningMsgBtn-complex-civ, .mediaVideoBtn-cdDaily,
+.warningMsgBtn-complex-air , .mediaVideoBtn-scDaily, .warningMsgBtn_NEWS,
+.warningMsgBtn_MP, .warningMsgBtn_TC, .warningMsgBtn{
+    background-color: #2a5caa;
+}
+.bufferAnalysisBtn:hover, .locationQueryBtn:hover, .callBtn:hover, 
+.videoConferencingBtn-complex:hover, .videoConferencingBtn:hover, 
+.warningMsgBtn-complex-civ:hover, .mediaVideoBtn-cdDaily:hover,
+.warningMsgBtn-complex-air:hover, .mediaVideoBtn-scDaily:hover, .warningMsgBtn_NEWS:hover,
+.warningMsgBtn_MP:hover, .warningMsgBtn_TC:hover, .warningMsgBtn:hover {
+    background-color: #2a5caa;
+}
+.bufferAnalysisBtn:visited, .locationQueryBtn:visited, .callBtn:visited, 
+.videoConferencingBtn-complex:visited, .videoConferencingBtn:visited, 
+.warningMsgBtn-complex-civ:visited, .mediaVideoBtn-cdDaily:visited,
+.warningMsgBtn-complex-air:visited, .mediaVideoBtn-scDaily:visited, .warningMsgBtn_NEWS:visited, .warningMsgBtn_MP:visited, 
+.warningMsgBtn_TC:visited, .warningMsgBtn:visited {
+    background-color: #2a5caa;
+}
+#messagebox-1001_header, #button-1005{
+    background-color: #2a5caa;
+}
+#messagebox-1001 {
+    border-color: #2a5caa;
+}
+#viewEntire {
+	background-image: url(../images/viewEntire.png);
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+}
+
+#line {
+	background-image: url(../images/measuredistance.png);
+	position: absolute;
+	top: 30px;
+	left: 150px;
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+}
+
+#polygon {
+	background-image: url(../images/measurearea.png);
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+}
+
+#clean {
+	background-image: url(../images/eraser.png);
+	position: absolute;
+	top: 30px;
+	left: 250px;
+	z-index: 2000;
+	width: 32px;
+	height: 32px;
+}
+.x-btn, .x-btn:hover{
+    background-color: #2a5caa;
+}
+#bigDipperMsgTextArea {
+    margin-top: 20px;
+}
+#bigDipperMsgCombo {
+    margin-top: 10px;
+}
+table.zqInfo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-collapse: collapse;
+}
+table.zqInfo td{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 3px;
+}
+#qwInfoBtn_1 {
+    border: 1px solid transparent;
+    text-align: left;
+    /*padding: 3px;*/
+}
+#qwInfoBtn_2 {
+    border: 1px solid transparent;
+    text-align: right;
+    /*padding: 3px;*/
+}
+#qwBtn_1 {
+    margin-left: -4px;
+    margin-top: 2px;
+}
+#qwBtn_2 {
+    margin-right: -4px;
+    margin-top: 2px;
+}
