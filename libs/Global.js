@@ -1,4 +1,4 @@
-var mapServicePanelHeight = 364;
+var mapServicePanelHeight = 638;
 var zoomout = false;
 var complate;
 var centerMarker;
@@ -422,7 +422,7 @@ function OnPageLoad() {
     vectorLayer = new SuperMap.Layer.Vector("vactorLayer",{displayInLayerSwitcher:false});
     heatMapLayer = new SuperMap.Layer.HeatMapLayer("HeatMapLayer", {
         "featureWeight": "height",
-        "featureRadius": "radius"
+        "featueRadius": "radius"
     },{displayInLayerSwitcher:false});
     var a = [new SuperMap.REST.ServerColor(170, 255, 0), new SuperMap.REST.ServerColor(255, 204, 0), new SuperMap.REST.ServerColor(255, 153, 0), new SuperMap.REST.ServerColor(255, 51, 0), new SuperMap.REST.ServerColor(255, 0, 0)];
     heatMapLayer.colors = a;
@@ -994,7 +994,7 @@ function SetAnalysisLayers() {
     });
     AnalysisLayers.push(a);
     a = new SuperMap.REST.FilterParameter({
-        name: "天网_天网@sichuan"
+        name: "天网@sichuan"
     });
     AnalysisLayers.push(a);
     a = new SuperMap.REST.FilterParameter({
@@ -1130,7 +1130,7 @@ function ClearAndAnalysis() {
     h.processAsync(k)
 }
 function AnalysisprocessCompleted(d) {
-    /*$('#communicationReceiptPanel-innerCt').append('进入缓冲区结果处理...' + '</br>');*/
+    //$("#communicationReceiptPanel-innerCt").empty();
     var t, s, o = d.result;
     var e;
     var C = document;
@@ -1139,7 +1139,6 @@ function AnalysisprocessCompleted(d) {
         var B = o.recordsets[t].datasetName;
         var g = o.recordsets[t].features;
         var v = g.length;
-        /*$('#communicationReceiptPanel-innerCt').append('feature Num: ' + B + '</br>');*/
         for (s = 0; s < v; s++) {
             e = g[s];
             var m = e.geometry.x;
@@ -1152,7 +1151,7 @@ function AnalysisprocessCompleted(d) {
             D.Point = e.geometry;
             D.Place = e.attributes.Name;
             D.PointDistance = MeasureDitance(m, l);
-            if (B == "天网_天网@sichuan") {
+            if (B == "天网@sichuan") {
                 var a = Ext.getCmp("skynetCheckBox");
                 if (a.getValue()) {
                     D.Place = e.attributes.TEL;
